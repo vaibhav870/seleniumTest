@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43166" started-at="2020-12-09T10:55:54Z" finished-at="2020-12-09T10:56:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="43166" started-at="2020-12-09T10:55:54Z" finished-at="2020-12-09T10:56:37Z">
+      <class name="com.datadriven.test.RegisterTestNg">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.datadriven.test.RegisterTestNg@13a5fe33]" name="SetUp" is-config="true" duration-ms="13635" started-at="2020-12-09T10:55:55Z" finished-at="2020-12-09T10:56:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="RunTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.datadriven.test.RegisterTestNg@13a5fe33]" name="RunTest" duration-ms="864" started-at="2020-12-09T10:56:08Z" data-provider="fetchData" finished-at="2020-12-09T10:56:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vaibhav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[m]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vaibhav.m@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.datadriven.test.RegisterTestNg@13a5fe33]" name="teardown" is-config="true" duration-ms="1524" started-at="2020-12-09T10:56:09Z" finished-at="2020-12-09T10:56:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.datadriven.test.RegisterTestNg@13a5fe33]" name="SetUp" is-config="true" duration-ms="11222" started-at="2020-12-09T10:56:11Z" finished-at="2020-12-09T10:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="RunTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.datadriven.test.RegisterTestNg@13a5fe33]" name="RunTest" duration-ms="810" started-at="2020-12-09T10:56:22Z" data-provider="fetchData" finished-at="2020-12-09T10:56:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tdata]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.datadriven.test.RegisterTestNg@13a5fe33]" name="teardown" is-config="true" duration-ms="1187" started-at="2020-12-09T10:56:23Z" finished-at="2020-12-09T10:56:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.datadriven.test.RegisterTestNg@13a5fe33]" name="SetUp" is-config="true" duration-ms="10897" started-at="2020-12-09T10:56:24Z" finished-at="2020-12-09T10:56:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="RunTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.datadriven.test.RegisterTestNg@13a5fe33]" name="RunTest" duration-ms="795" started-at="2020-12-09T10:56:35Z" data-provider="fetchData" finished-at="2020-12-09T10:56:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tdata3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test2@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.datadriven.test.RegisterTestNg@13a5fe33]" name="teardown" is-config="true" duration-ms="1212" started-at="2020-12-09T10:56:36Z" finished-at="2020-12-09T10:56:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.datadriven.test.RegisterTestNg -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

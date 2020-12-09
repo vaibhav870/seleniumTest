@@ -15,7 +15,7 @@ public class TP {
 
 		driver.get("https://www.ebay.com/");
 		driver.manage().window().maximize();
-		driver.findElement(By.name("_nkw")).sendKeys("Toys");
+		driver.findElement(By.name("_nkw")).sendKeys("mobile");
 		WebElement category=driver.findElement(By.id("gh-cat"));
 		Select select= new Select(category);
 		select.selectByIndex(0);
