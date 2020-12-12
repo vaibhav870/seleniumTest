@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.datadriven.test.RegisterTestNg">
+      <class name="MyWork.GmailLogin">
         <methods>
+          <include name="setup"/>
+          <include name="TearDown"/>
           <include name="RunTest"/>
-          <include name="SetUp"/>
         </methods>
-      </class> <!-- com.datadriven.test.RegisterTestNg -->
+      </class> <!-- MyWork.GmailLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

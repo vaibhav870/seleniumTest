@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="myWork">
+	<test name="GmailLogin">
+		<parameter name="url" value="https://mail.google.com/"></parameter>
+		<parameter name="email" value="vaibhav.muddebihalkar"></parameter>
+		<parameter name="pass" value="bdx11005a1"></parameter>
+	<classes>
+			<class name="Mywork.GmailLogin"></class>
+		</classes>
+
+	</test>
+
+</suite>
